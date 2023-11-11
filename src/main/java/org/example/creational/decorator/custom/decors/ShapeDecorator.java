@@ -1,6 +1,8 @@
-package org.example.creational.decorator;
+package org.example.creational.decorator.custom.decors;
 
-public abstract class ShapeDecorator implements Shape{
+import org.example.creational.decorator.custom.shapes.Shape;
+
+public abstract class ShapeDecorator implements Shape {
     protected Shape decoratedShape;
 
     public ShapeDecorator(Shape decoratedShape) {

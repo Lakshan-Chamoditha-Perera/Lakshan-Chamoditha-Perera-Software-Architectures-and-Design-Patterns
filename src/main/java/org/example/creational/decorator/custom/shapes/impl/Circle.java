@@ -1,4 +1,6 @@
-package org.example.creational.decorator;
+package org.example.creational.decorator.custom.shapes.impl;
+
+import org.example.creational.decorator.custom.shapes.Shape;
 
 public class Circle implements Shape {
     @Override

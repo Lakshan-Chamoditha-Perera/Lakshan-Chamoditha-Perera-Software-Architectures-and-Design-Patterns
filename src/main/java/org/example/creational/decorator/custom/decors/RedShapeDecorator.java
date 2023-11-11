@@ -1,4 +1,6 @@
-package org.example.creational.decorator;
+package org.example.creational.decorator.custom.decors;
+
+import org.example.creational.decorator.custom.shapes.Shape;
 
 public  class RedShapeDecorator extends ShapeDecorator{
     public RedShapeDecorator(Shape decoratedShape) {
